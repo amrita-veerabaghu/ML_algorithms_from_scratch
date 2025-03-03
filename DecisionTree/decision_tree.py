@@ -1,12 +1,11 @@
 import numpy as np
 
-
 def learn_decision_tree(examples: list[dict], attributes: list[str], target_attr: str) -> dict:
     # Your code here
     decision_tree = DecisionTree(examples, attributes, target_attr)
     return decision_tree.fit()
 
-class DecisionTree():
+class DecisionTree:
     def __init__(self, samples, attributes, target_attr):
         self.attributes = attributes
         self.target_attr = target_attr
