@@ -1,0 +1,17 @@
+[project]
+name = "ml-algorithms"
+version = "0.1.0"
+description = "ML algorithms from scratch using python and numpy"
+authors = [
+    {name = "amrita.nitt95@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy (>=2.2.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
