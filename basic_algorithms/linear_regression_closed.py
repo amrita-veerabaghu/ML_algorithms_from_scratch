@@ -2,6 +2,11 @@ import numpy as np
 
 class LinearRegression:
     def __init__(self, x: list[list[float]], y: list[float]):
+        """
+        A closed form solution for finding the parameters of a Linear Regression model
+        :param x: List of data samples of shape n_samples x n_features
+        :param y: List of output class of the samples of shape n_samples x 1
+        """
         self.X = np.array(x)
         self.y = np.array(y)
 
